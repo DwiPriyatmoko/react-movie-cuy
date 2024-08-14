@@ -47,7 +47,7 @@ const App = () => {
 				<h1>Movie tipis-tipis</h1>
 				<input
 					type='text'
-					placeholder='Search movie'
+					placeholder='Cari film..'
 					className='movie-input'
 					onChange={({ target }) => search(target.value)}
 				/>
